@@ -202,6 +202,12 @@
 }
 
 
+ /* Hide default checkbox */
+ #menu-toggle, .menu-icon {
+    display: none;
+}
+
+
 
 
 /* Responsive Design */
@@ -278,12 +284,10 @@
     }
 
     /* Hide default checkbox */
-    #menu-toggle {
+    /* #menu-toggle, .menu-icon {
         display: none;
-    }
-.checkbox{
-    /* visibility: hidden; */
-}
+    } */
+
     /* Hamburger Icon */
     .menu-icon {
         display: flex;
@@ -304,8 +308,6 @@
     }
 
     
-
-
     .container {
         display: flex;
         flex-direction: column;
